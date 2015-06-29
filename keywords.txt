@@ -6,26 +6,24 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-PS2 KEYWORD1
-
+Cytron_PS2Shield	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-init 		KEYWORD2
-getval	 	KEYWORD2
-getall	 	KEYWORD2
-vibrate 	KEYWORD2
-reset	 	KEYWORD2
-
-
-ps_data		KEYWORD2
-SERIAL_ERR KEYWORD2
+begin	KEYWORD2
+getValue	KEYWORD2
+getAll	KEYWORD2
+vibrate KEYWORD2
+reset KEYWORD2
+ps_data KEYWORD2
+SERIAL_ERR  KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
+
 p_select 	LITERAL1
 p_joyl 	 	LITERAL1
 p_joyr 		LITERAL1
