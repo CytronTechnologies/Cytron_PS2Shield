@@ -1,0 +1,61 @@
+#######################################
+# Syntax Coloring Map For Matrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PS2 KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init 		KEYWORD2
+getval	 	KEYWORD2
+getall	 	KEYWORD2
+vibrate 	KEYWORD2
+reset	 	KEYWORD2
+
+
+ps_data		KEYWORD2
+SERIAL_ERR KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+p_select 	LITERAL1
+p_joyl 	 	LITERAL1
+p_joyr 		LITERAL1
+p_start 	LITERAL1
+p_up		LITERAL1
+p_right 	LITERAL1
+p_down		LITERAL1
+p_left		LITERAL1
+p_l2		LITERAL1
+p_r2		LITERAL1
+p_l1		LITERAL1
+p_r1		LITERAL1
+p_triangle	LITERAL1
+p_circle	LITERAL1
+p_cross		LITERAL1
+p_square	LITERAL1
+p_joy_lx	LITERAL1
+p_joy_ly	LITERAL1
+p_joy_rx	LITERAL1
+p_joy_ry	LITERAL1
+p_joy_lu	LITERAL1
+p_joy_ld	LITERAL1
+p_joy_11	LITERAL1
+p_joy_lr	LITERAL1
+p_joy_ru	LITERAL1
+p_joy_rd	LITERAL1
+p_joy_rl	LITERAL1
+p_joy_rr	LITERAL1
+
+p_con_status	LITERAL1
+p_motor1		LITERAL1
+p_motor2		LITERAL1
+p_btn_joy		LITERAL1
