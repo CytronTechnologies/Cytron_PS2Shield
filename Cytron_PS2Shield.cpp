@@ -47,7 +47,7 @@ void Cytron_PS2Shield::write(uint8_t data)
 {
 	if(hardwareSerial)
 	{
-		while(Serial.available() > 0) {
+		while(Serial.available() == 0) {
 			Serial.read();
 		}
 		Serial.write(data);
@@ -55,7 +55,7 @@ void Cytron_PS2Shield::write(uint8_t data)
 	}
 	else
 	{
-		while(PS2Serial->available() > 0) {	
+		while(PS2Serial->available() == 0) {	
 			PS2Serial->read();
 		}
 		PS2Serial->write(data);
