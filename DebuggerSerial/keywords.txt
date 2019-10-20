@@ -1,0 +1,29 @@
+#######################################################
+####### Keywords for the DebuggerSerial Library #######
+#######################################################
+
+################### Main Classes ######################
+DebuggerSerial	KEYWORD1
+
+
+
+################### Functions #########################
+Initialize	KEYWORD2
+AttachSerial	KEYWORD2
+InitializeName	KEYWORD2
+SetDebuggerPriorityToLevel	KEYWORD2
+enableDebugger	KEYWORD2
+disableDebugger	KEYWORD2
+printMessage	KEYWORD2
+print	KEYWORD2
+printSensorData	KEYWORD2
+
+
+#################### Literals ##########################
+SENSOR_FEED	LITERAL1
+NOTIFICATION	LITERAL1
+DEBUG	LITERAL1
+INFO	LITERAL1
+WARNING	LITERAL1
+ERROR	LITERAL1
+FATAL	LITERAL1
